@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Product Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script/productScript.js"></script>
+    </head>
+    <body>
+        
+        <h3>Product Manager</h3>
+        
+        <!-- La table permette di creare tabelle -->
+        <!-- Vanno dichiarate le righe (rows) -->
+        <!-- all'interno delle quali ci sono i campi (data) -->
+        <table>
+        
+        	<tbody id="column-titles">
+        	<tr><th>ID</th><th>Name</th><th>Brand</th><th>Category</th><th>Price</th><th>Available</th><th>Action</th><th>Action</th></tr>
+        	</tbody>
+        	<tbody id="product-records">
+        	</tbody>
+            <tbody id="product-add-form">
+            <tr>
+            	<td><b>Add Product:</b></td>
+            	<td><input type="text" id="name" placeholder="product name"></td>
+            	<td><input type="text" id="brand" placeholder="brand name"></td>
+            	<td><input type="text" id="category" placeholder="product category"></td>
+            	<td><input type="number" id="price" placeholder="product price"></td>
+            	<td>available <input type="checkbox" id="available"></td>
+            	<td><button onclick="postProduct()" id="save">Save</button></td>
+            	<td><button onclick="clearFields()" id="clear">Clear</button></td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <div id="operations"></div>
+                        
+    
+</body></html>

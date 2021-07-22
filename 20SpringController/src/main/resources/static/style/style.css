@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+	font-family: 'Noto Sans', sans-serif;
+}
+td, th {
+	border: 1px solid #aaa;
+	padding: 5px;
+}
+
+table {
+	border: 1px solid #aaa;
+}
+
+input{
+	max-width: 115px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+button {
+	font-family: 'Noto Sans', sans-serif;
+	width: 65px;
+	border-radius: 5px;
+	border: 1.5px solid #aaa;	
+	padding:4px;
+	transition: all 0.3s ease;
+}
+
+.del{
+	background-color: #ffcccc;
+	border-color: #b02020;
+	color: #b02020;
+}
+
+.del:hover {
+	background-color: #b02020;
+	color: #ffcccc;
+}
+
+.upd{
+	background-color: #c3e1ff;
+	border-color: #196195;
+	color: #196195;
+}
+
+.upd:hover{
+	background-color: #196195;
+	color: #c3e1ff;
+}
+
+#save, .save{
+	background-color: #b8f6b8;
+	border-color: #1b7046;
+	color: #1b7046;
+}
+
+#save:hover, .save:hover{
+	background-color: #1b7046;
+	color: #b8f6b8;
+}
+
+#clear, .clear{
+	background-color: #ffe3ba;
+	border-color: #817410;
+	color: #817410;
+}
+
+#clear:hover, .clear:hover{
+	background-color: #817410;
+	color: #ffe3ba;
+}
